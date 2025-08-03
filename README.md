@@ -1,27 +1,25 @@
-Mini LinkedIn Platform 🧑‍💼🌐
-A minimal social networking platform built with the MERN stack that allows users to register/login, create and view posts, connect with other users, and manage profiles—similar to a basic version of LinkedIn.
-
+🚀 Mini LinkedIn Platform 🧑‍💼🌐
+A minimal social networking platform built with the MERN stack that allows users to register/login with OTP, create and view posts, manage their profiles, and connect with other users — similar to a basic version of LinkedIn.
 
 📌 Features
-User Authentication (Email-based with OTP)
+✅ Email-based Registration with OTP
 
-JWT-based Login
+🔐 JWT-based Authentication
 
-User Profiles (Name, Email, Bio)
+👤 User Profiles (Name, Email, Bio)
 
-Public Post Feed (Create, Edit, Delete, View)
+📝 Public Post Feed (Create, Edit, Delete, View)
 
-Suggested Connections & Network List
+🤝 Suggested Connections & Network List
 
-Profile Page with user’s posts
+🔍 Search Posts by Content
 
-Responsive Layout using MUI
+🧑‍💻 View Other Users' Profiles and Posts
 
-Search Posts by Content
+📱 Responsive UI using Material UI (MUI)
 
 🛠 Tech Stack
 Frontend
-
 React + Vite
 
 React Router DOM
@@ -31,67 +29,75 @@ Material-UI (MUI)
 Axios
 
 Backend
-
 Node.js + Express
 
 MongoDB (Mongoose)
 
-JWT for Auth
+JWT (Authentication)
 
-Bcrypt for password hashing
+Bcrypt (Password Hashing)
 
-Nodemailer for OTP Email
+Nodemailer (OTP Email Verification)
 
 🖥️ Frontend Setup
+🔁 Clone and Install
 bash
 Copy
 Edit
 git clone https://github.com/mpremkumar9999/Mini_Linkedin_frontend.git
+
+
 cd Mini_Linkedin_frontend
 npm install
-🔧 Environment Variables
-Create a .env file in the root with:
 
-bash
+
+🔧 Create .env File
+env
 Copy
 Edit
 VITE_API_BASE_URL=http://localhost:5000/api
-🚀 Start Frontend
+🚀 Run the Frontend
 bash
 Copy
 Edit
 npm run dev
+The frontend will be available at: http://localhost:5173
+
 ⚙️ Backend Setup
+🔁 Clone and Install
 bash
 Copy
+
 Edit
 git clone https://github.com/mpremkumar9999/Mini_Linkedin_backend.git
+
 cd Mini_Linkedin_backend
 npm install
-🔧 Environment Variables
-Create a .env file with the following:
 
-ini
+
+🔧 Create .env File
+env
 Copy
 Edit
 PORT=5000
-MONGO_URL=your_mongodb_connection_url
-JWT_SECRET=your_secret_key
+MONGO_URL=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
 EMAIL_USER=your_email@gmail.com
 EMAIL_PASS=your_email_app_password
-📧 Note: Use an app password if you're using Gmail with 2FA.
+📧 Note: Use an App Password if your Gmail account has 2-Step Verification enabled.
 
-🚀 Start Backend
+🚀 Run the Backend
 bash
 Copy
 Edit
 npm run dev
-🧪 Test the App
-Start backend (localhost:5000)
+The backend server will run on: http://localhost:5000
 
-Start frontend (localhost:5173)
+🧪 Testing the App
+Start Backend: http://localhost:5000
 
-Register a new user with email OTP verification
+Start Frontend: http://localhost:5173
 
-Start using your Mini LinkedIn: create posts, visit profiles, explore the network!
+Register with your email using OTP verification
 
+Login, create posts, visit profiles, and explore the community!
