@@ -97,7 +97,7 @@ Follow these steps to set up and run the project locally.
 
 5.  **Start the Backend Server**
     ```bash
-    npm run dev
+    nodemon server.js
     ```
     Your backend API will now be running and listening for requests on: `http://localhost:5000`
 
